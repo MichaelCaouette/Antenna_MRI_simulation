@@ -1,0 +1,12 @@
+
+- DONE Make the definition of the geometry in a separated script. 
+	Then use this "object" to run the simulation on it. 
+
+	I think that this would simplifie a lot of things. 
+
+	But it would require to change a couple of things in how I structured the scripts. 
+	I should define the geometry in a separate script. And then use the solver on this geometry !
+	And where would I put the delays ? maybe in the geometry itself. 
+	But the delays are a temporary thing. At some point I would like to include a general B1(t) shape. 
+
+- A picture of the schematic of the worklow (with arrows)

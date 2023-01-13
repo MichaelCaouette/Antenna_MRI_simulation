@@ -1,0 +1,6 @@
+2022-11-14 
+The workflow is good. 
+To make things better and easier to use, I should split the big script in "sensitivity_profile" into smaller piece 
+of script. 
+
+For example, the calculation of the mask should be in a separated script. 

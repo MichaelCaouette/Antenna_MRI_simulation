@@ -1,0 +1,31 @@
+From
+        # Get the list of pts making the loop
+        list_pts = get_loop_pts(x0, y0, z0, 
+                                self.z_hat,
+                                self.list_Rcircle[0], 
+                                Npts=self.N_dscrt_pts_loop)        
+        # Create the wire
+        wire = FieldLinePath(list_pts,
+                             I =self.I_loop , 
+                             f =self.f,
+                             u0=self.u0,
+                             c =self.c  )
+        self.list_wire.append(wire)
+        # Delay
+
+
+TO
+
+        list_pts = get_loop_pts(x0, y0, z0, 
+                                self.z_hat,
+                                self.list_Rcircle[0], 
+                                Npts=self.N_dscrt_pts_loop)        
+        self.list_wire.append(list_pts )
+
+
+Basically append "list_pts" instead of "wire"
+
+
+
+
+
